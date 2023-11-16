@@ -35,6 +35,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    align-items: center;
+    gap: 14px;
 }
 
 .logo_be {
@@ -88,6 +90,7 @@ a {
     padding-top: 44px;
     padding-bottom: 162px;
     display: flex;
+    gap: 41px;
 }
 
 h2 {
@@ -110,6 +113,13 @@ p {
     line-height: normal;
 }
 
+.top_buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 72px;
+}
+
 .top_button_disign {
     border-radius: 50px;
     background: #F25822;
@@ -128,12 +138,7 @@ p {
     line-height: normal;
 }
 
-.content_img {
-    padding: 162px 0 162px 0;
-    width: 544.814px;
-    height: 374.843px;
-    flex-shrink: 0;
-}
+.content_img {}
 
 .brends {
     padding-top: 97;
