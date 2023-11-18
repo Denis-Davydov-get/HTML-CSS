@@ -2,3 +2,32 @@
     margin: 0;
     padding: 0;
 }
+
+p {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+}
+
+.center {
+    padding-left: calc(50% - 368px);
+    padding-right: calc(50% - 368px);
+}
+
+.top {
+    display: flex;
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url("./fonts/GilroySemiBold/GilroySemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+    font-size: 24px;
+    line-height: normal;
+}
