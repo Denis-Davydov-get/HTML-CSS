@@ -126,6 +126,7 @@
 /*solution*/
 .solution {
     display: flex;
+    align-items: flex-end;
 }
 
 .solution_text {}
