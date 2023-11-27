@@ -191,11 +191,6 @@
     background: #F8F8F8;
 }
 
-.cart_item__img_basket {
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
 
 .button_browse {
     display: block;
