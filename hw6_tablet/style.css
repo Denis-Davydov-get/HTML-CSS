@@ -227,7 +227,7 @@ img {
     max-width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .center {
         padding-left: calc(50% - 384px);
         padding-right: calc(50% - 384px);
@@ -262,4 +262,11 @@ img {
     }
 
     .button {}
+}
+
+@media (min-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 512px);
+        padding-right: calc(50% - 512px);
+    }
 }
