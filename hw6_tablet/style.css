@@ -33,6 +33,10 @@
     align-items: center;
 }
 
+.brand img {
+    padding-right: 63px;
+}
+
 .brand__text {
     border-left: #F16D7F 12px solid;
     padding-left: 16px;
@@ -80,7 +84,6 @@
     z-index: -1;
     width: 100%;
     background: transparent;
-    z-index: -1;
 }
 
 .category__items {
@@ -223,50 +226,82 @@
     line-height: normal;
 }
 
-img {
-    max-width: 100%;
-}
 
-@media (min-width: 768px) {
+
+@media (min-width: 768px) and (max-width: 1024px) {
     .center {
-        padding-left: calc(50% - 384px);
-        padding-right: calc(50% - 384px);
+        padding-left: calc(50% - 367px);
+        padding-right: calc(50% - 367px);
     }
 
     .header {
         font-size: 44px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .brand img {
+        padding-right: 30px;
     }
 
     .category {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        justify-items: start;
+        display: grid;
+        grid-template-columns: repeat(3, 232px);
         gap: 20px;
     }
 
-    .category__items>p {
-        font-size: 16px;
-        font-size: 24px;
+
+    .category {
+        display: flex;
     }
 
-    .category__items>span {}
 
-    .feture {}
-
-    .offer {
+    .category {
         display: grid;
-        grid-template-columns: repeat(3, 360px);
+        grid-template-columns: repeat(3, 232px);
         gap: 16px;
         justify-content: center;
     }
 
-    .button {}
-}
+    .category__items__big_img {
+        grid-column: 1/4;
+    }
 
-@media (min-width: 1024px) {
-    .center {
-        padding-left: calc(50% - 512px);
-        padding-right: calc(50% - 512px);
+    .offer {
+        grid-template-columns: repeat(2, 360px);
     }
 }
+
+/* @media (min-width: 1024px) and (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 363px);
+        padding-right: calc(50% - 363px);
+    }
+
+    .brand__text h1 {
+        color: #222;
+        font-family: Lato;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+
+    .brand__text__of_luxerious {
+        color: #222;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .brand__text__fashion {
+        color: #F16D7F;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+} */
