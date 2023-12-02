@@ -130,7 +130,6 @@
 
 .feture h1 {
     color: #222;
-    font-family: Lato;
     font-size: 30px;
     font-weight: 400;
 }
@@ -224,9 +223,8 @@
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 }
-
-
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .center {
@@ -271,37 +269,3 @@
         grid-template-columns: repeat(2, 360px);
     }
 }
-
-/* @media (min-width: 1024px) and (max-width: 1024px) {
-    .center {
-        padding-left: calc(50% - 363px);
-        padding-right: calc(50% - 363px);
-    }
-
-    .brand__text h1 {
-        color: #222;
-        font-family: Lato;
-        font-size: 44px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: normal;
-    }
-
-    .brand__text__of_luxerious {
-        color: #222;
-        font-family: Lato;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-
-    .brand__text__fashion {
-        color: #F16D7F;
-        font-family: Lato;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-} */
