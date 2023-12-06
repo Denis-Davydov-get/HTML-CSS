@@ -1,0 +1,126 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    .center {
+        padding-left: calc(50% - 130px);
+        padding-right: calc(50% - 150px);
+    }
+
+    .header__left {
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-right: 16px;
+        padding-left: 16px;
+        gap: 41px;
+    }
+
+    .img_none {
+        display: none;
+    }
+
+
+    .brand {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .brand__text {
+        border-left: #F16D7F 12px solid;
+
+    }
+
+    .brand__text__header {
+        font-size: 38px;
+    }
+
+    .brand__text__of_luxerious {
+        font-size: 20px;
+    }
+
+    .brand__text__fashion {
+        font-size: 20px;
+    }
+
+    .category__items>p {
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .category__items>p>span {
+        color: #F16D7F;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .category__items__big_img__desktop {
+        display: none;
+    }
+
+    .category__items__big_img__mobile {
+        display: block;
+    }
+
+    .offer {
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+        justify-content: center;
+    }
+
+    .offer__items>img {
+        width: 300px;
+    }
+
+    .advantages {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .subscribe {
+        background: none;
+        flex-wrap: wrap;
+        gap: 59px
+    }
+
+
+
+    .subscribe__items_left {
+        bottom: 200px;
+        left: 20px;
+    }
+
+    .subscribe__items_right {
+        top: 150px;
+        left: 20px;
+    }
+
+    .subscribe__items_right__text {
+        width: 200px;
+    }
+
+    .subscribe__items_right__header {
+        color: #222224;
+        text-align: center;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 153.2%;
+        /* 36.768px */
+    }
+
+    .subscribe__items__for_our {
+        color: #222224;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 153.2%;
+    }
+
+    .footer {
+        padding-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        flex-direction: column-reverse;
+    }
+}
