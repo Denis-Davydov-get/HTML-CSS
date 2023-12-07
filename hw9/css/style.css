@@ -232,6 +232,7 @@
 .offer__items__background_2_item {
     background: #F7E4E2;
     height: 420px;
+    transition: all 0.3s;
 
 }
 
