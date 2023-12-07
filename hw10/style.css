@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -267,10 +269,6 @@
 }
 
 
-.offer__items_img__hover {
-    display: 250px;
-}
-
 .offer_items_img_hover {
     position: absolute;
     width: 100%;
@@ -316,7 +314,6 @@
     flex-direction: column;
     gap: 16px;
     padding-bottom: 0;
-    padding-top: 16px;
 }
 
 .offer__items h5 {
@@ -637,13 +634,8 @@
 }
 
 @font-face {
-    color: #222;
-    font-family: Lato;
-    font-size: 48px;
     font-style: normal;
     font-weight: 900;
-    line-height: normal;
-    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
